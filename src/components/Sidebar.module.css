@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    width: 10%;
+    padding: 0 10px;
+    background-color: var(--side-bar-color);
+    border: 1px solid #555;
+    height: 100%;
+    /* Full height */
+    position: fixed;
+    /* Make it stick, even on scroll */
+    overflow: auto;
+    /* Enable scrolling if the sidenav has too much content */
+}
+
+.nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.nav ul li a, .nav ul li p{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover, .nav ul li p:hover {
+    background-color: var(--header-footer-color);
+    color: white;
+}
+
+.nav ul li:last-child {
+    border-bottom: none;
+}
