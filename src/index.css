@@ -1,8 +1,7 @@
-body{
-    margin: 0;
-    --background-color: white;
-    --header-footer-color: #264653;
-    --sidebar-color: #2A9D8F;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  margin: 0;
+  --background-color: white;
+  --header-footer-color: #264653;
+  --sidebar-color: #2a9d8f;
+  font-family: "Courier New", Courier, monospace;
 }
-
