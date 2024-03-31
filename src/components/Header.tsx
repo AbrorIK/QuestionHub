@@ -27,21 +27,17 @@ export function Header({ navBarItems, menuItems, handleNavigation }: Props) {
     ? "dropdown-menu text-small show"
     : "dropdown-menu text-small";
 
-  const linkStyleForUl = isMenuOpen
-    ? "position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 34px);"
-    : "";
-
   const linkDataPopperPlacementForUl = isMenuOpen ? "bottom-start" : "";
 
   return (
     <div className="container">
-      <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start my-2">
         <a
           href="/"
           className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
         >
           <img
-            src="../../public/vite.svg" // Use the imported logo as the src
+            src="../../public/cup-hot-fill.svg" // Use the imported logo as the src
             alt="Vite Logo" // Provide alt text for accessibility
             className="bi me-2" // Apply any additional classes if needed
             width="40" // Set the width as needed
@@ -112,7 +108,7 @@ export function Header({ navBarItems, menuItems, handleNavigation }: Props) {
             }
             data-popper-placement={linkDataPopperPlacementForUl}
           >
-            {menuItems.map((item, index) => (
+            {menuItems.map((item) => (
               <li>
                 <a href="#" className="dropdown-item" key={item}>
                   {item}

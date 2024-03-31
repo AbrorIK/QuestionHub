@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <Header
         navBarItems={navBarItems}
         menuItems={menuItems}
@@ -38,7 +38,7 @@ function App() {
       />
       {renderMainPage()}
       <Footer />
-    </>
+    </div>
   );
 }
 
