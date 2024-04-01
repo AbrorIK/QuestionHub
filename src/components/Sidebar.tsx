@@ -18,7 +18,7 @@ export function Sidebar({ questions, handleQuestion }: Props) {
         className="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom"
       >
         <img
-          src="../../public/vite.svg" // Use the imported logo as the src
+          src="../../vite.svg" // Use the imported logo as the src
           alt="Vite Logo" // Provide alt text for accessibility
           className="bi me-2" // Apply any additional classes if needed
           width="30" // Set the width as needed

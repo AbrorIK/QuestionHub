@@ -37,7 +37,7 @@ export function Header({ navBarItems, menuItems, handleNavigation }: Props) {
           className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
         >
           <img
-            src="../../public/cup-hot-fill.svg" // Use the imported logo as the src
+            src="../../cup-hot-fill.svg" // Use the imported logo as the src
             alt="Vite Logo" // Provide alt text for accessibility
             className="bi me-2" // Apply any additional classes if needed
             width="40" // Set the width as needed
@@ -87,7 +87,7 @@ export function Header({ navBarItems, menuItems, handleNavigation }: Props) {
             onClick={toggleSelected} // Toggle the isSelected state on click
           >
             <img
-              src="../../public/person-circle.svg"
+              src="../../person-circle.svg"
               alt="mdo"
               width="32"
               height="32"
